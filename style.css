@@ -26,7 +26,6 @@ nav {
 section {
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
     color: #777;
     background: #ebebeb;
 }
@@ -35,7 +34,7 @@ aside {
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 272px;
+    height: 252px;
     color: #777;
     background: #ebebeb;
 }
