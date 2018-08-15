@@ -1,6 +1,8 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
@@ -11,17 +13,48 @@ body {
     font-size: 18px;    
 }
 
-header, nav, section, aside, footer {
+header {
     padding: 20px;
-    margin: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    color: #777;
+    background: #ebebeb;
+}
+
+nav {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #777;
+    background: #ebebeb;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #777;
+    background: #ebebeb;
+}
+
+aside {
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 232px;
     color: #777;
     background: #ebebeb;
 }
 
 article {
+    padding: 20px;
     color: #ebebeb;
     background: #777;
     max-width: 495px;
+}
+
+footer {
+    clear: both;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #777;
+    background: #ebebeb;
 }
 
 #left {
@@ -30,8 +63,8 @@ article {
 }
 
 #right {
-    float: left;
-    width: 50%;
+    float: right;
+    width: 40%;
 }
 
 #full {
